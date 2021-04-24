@@ -1,11 +1,39 @@
 body{
-    background-color: bisque;
+    background-color:#D2CCCA;
 
 }
 a:link, a:visited, a:active {
     text-decoration:none;
 }
 nav{
-    background-color: cadetblue;
+    background-color:#908D8C ;
+    padding: 50px;
+}
+
+.menu{
+    text-align: center;
+    
+}
+
+.box{
+    
+        background-color: #908D8C;
+        text-align: center;
+        border-color: black ;
+        width: 30%;
+        float: left;
+        margin: 15px;
+        border: 1px solid #1d1b1b;
+        
+    
+}
+.box1{
+    background-color: #908D8C;
+    text-align: center;
+    border-color: black ;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    border: 1px solid #1d1b1b;
     
 }
