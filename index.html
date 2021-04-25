@@ -10,19 +10,36 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                        <div>
-                            <a href="index.html"><h1>Food, LLC</h1></a>
-                        </div>
-             </div>            
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                   
+                <a href="index.html"><h1>Food, LLC</h1></a>
+                        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#Chicken">Chicken <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Beef">Beef</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Sushi">Sushi</a>
+                      </li>
+                    </ul>
+                    
+                  </div>     
         </nav>
     </header>
     <div>
         <h1 class="menu">Our Menu</h1>
     </div>
     <section class="box">
-        <h1>Chicken</h1>
+        
+        <h1 class="menu"  id="Chicken">Chicken</h1>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Rerum vitae suscipit ab, sequi vero cumque quasi quas nulla cum id.
@@ -41,8 +58,8 @@
             ab reiciendis dolore minus repudiandae sunt, 
             commodi dolor sed nesciunt consectetur mollitia numquam labore.</p>
     </section>
-    <section class="box">
-        <h1>Beef</h1>
+    <section class="box" id="Beef">
+        <h1 class="menu">Beef</h1>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Rerum vitae suscipit ab, sequi vero cumque quasi quas nulla cum id.
@@ -62,8 +79,8 @@
             commodi dolor sed nesciunt consectetur mollitia numquam labore.</p>
     </section>
 
-    <section class="box1">
-        <h1>Sushi</h1>
+    <section class="box1" id="Sushi">
+        <h1 class="menu">Sushi</h1>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Rerum vitae suscipit ab, sequi vero cumque quasi quas nulla cum id.
