@@ -4,6 +4,7 @@ body{
 }
 a:link, a:visited, a:active {
     text-decoration:none;
+    color: #1d1b1b;
 }
 nav{
     background-color:#908D8C ;
@@ -12,11 +13,12 @@ nav{
 
 .menu{
     text-align: center;
+    padding: 25px;
     
 }
 
 .box{
-    
+    font-weight: bold;
     background-color: #908D8C;
     text-align: center;
     border-color: black ;
@@ -28,7 +30,7 @@ nav{
     
 }
 .box1{
-    
+    font-weight: bold;
     background-color: #908D8C;
     text-align: center;
     border-color: black ;
