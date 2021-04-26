@@ -1,43 +1,44 @@
 body{
-    background-color:#D2CCCA;
+    background-color:#fdfbfa;
 
 }
 a:link, a:visited, a:active {
     text-decoration:none;
     color: #1d1b1b;
 }
+
 nav{
     background-color:#908D8C ;
-    padding: 30px;
+    padding: 40px;
 }
-
-.menu{
+.title-menu{
     text-align: center;
     padding: 25px;
     
 }
 
 .box{
+
     font-weight: bold;
     background-color: #908D8C;
     text-align:inherit;
     border-color: black ;
     width: 30%;
     float: left;
-    margin: 15px;
-    border: 1px solid #1d1b1b;
+    margin: 14px;
+    border: 2px solid #1d1b1b;
         
     
 }
 .box1{
     font-weight: bold;
     background-color: #908D8C;
-    
+    text-align:inherit;
     border-color: black ;
     width: 30%;
     float: left;
-    margin: 15px;
-    border: 1px solid #1d1b1b;
+    margin: 14px;
+    border: 2px solid #1d1b1b;
     
     
 }
@@ -56,23 +57,23 @@ nav{
    }
 
 @media screen and (min-width:992px) {
-    .navbar-toggler {
-        visibility: hidden;
+    
+    .navbar-nav{
         display: none;
     }
-    
-    .box{
+    .box {
         width: 30%;
     } 
     .box1{
         width: 30%;
-    } 
+    }
     
 }
 
 @media screen and (max-width:991px) {
     .box{
         width: 45%;
+
     }
     .box1{
         width: 94%;
@@ -81,16 +82,15 @@ nav{
 
 
 @media screen and (max-width:767px) {
-    .box{
-        width: 100%;
-        margin: 5px;
-        margin-left: 2PX;
+    .box {
+        width: 97%;
+        margin: 10px ;
     }
-    .box1{
-        width: 100%;
-        margin: 5px;
-        margin-left: 2PX;
+    
+   .box1{
+        width: 97%;
+        margin: 10px;
+        
     }
-
 }
 
